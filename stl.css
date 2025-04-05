@@ -75,6 +75,38 @@ button:hover {
 
 
 footer {
-  margin-top: 3rem;
+  margin-top: rem;
   font-size: 0.9rem;
+  display: flex;
+  width:100%;
+
+  justify-content: center;
+
+}
+#logo{
+  width:30%;
+  padding:0;
+  margin-left: -2rem;
+  margin-right: -40px;
+}
+
+.insta{
+  display: flex;
+  padding: 0;
+  text-align: center;
+  width: 20rem;
+  color:white;
+  background:linear-gradient(10deg, rgb(1, 2, 46) 20%,white 100%);
+  box-shadow: 5px 5px 4px rgb(99, 75, 75);
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.insta:hover{
+  background: linear-gradient(190deg, rgb(84, 53, 53) 20%,black 100%);
+  cursor: pointer;
+}
+.instaname{
+  margin-left:-10px;
+  margin-right: 1px;
 }
